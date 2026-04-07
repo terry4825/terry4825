@@ -36,7 +36,7 @@
 
 ### 📂 관련 자료 (Project Files)
 * 💻 [R Markdown 분석 소스 코드 (.Rmd)](./STAT429/Stat429FinalProject_HY.Rmd)
-* 📄 [분석 리포트 확인 (PDF/HTML)](./STAT429/Stat429FinalProject_HY.pdf)
+* 📄 [분석 리포트 확인 (PDF)](./STAT429/Stat429FinalProject_HY.pdf)
 * 📊 [사용된 데이터셋 (CSV_1)](./STAT429/crude-oil-prices.csv)
 * 📊 [사용된 데이터셋 (CSV_2)](./STAT429/oil-consumption-by-country.csv)
 * 📊 [사용된 데이터셋 (CSV_3)](./STAT429/oil-production-by-country.csv)
