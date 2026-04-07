@@ -31,3 +31,8 @@
 ## 🏆 Key Achievements & Insights
 * **Critical Analytical Thinking:** Demonstrated professional integrity by identifying and explaining why the models were inconclusive based on data defects (Skewness, Auto-correlation).
 * **Strategic Problem Solving:** Transformed an "inconclusive" result into a comprehensive technical report on data restructuring and advanced modeling roadmaps.
+
+### 📂 Project Files
+* 📊 [Final Presentation Slide (PDF)](./STAT437/Project_PPT.pdf)
+* 💻 [Deep Learning Implementation & Analysis Report (.ipynb)](./STAT437/STAT_437_Project_HY.ipynb)
+* 💾 [Source Dataset: Pharmaceutical/Drug Data (CSV)](./STAT437/drugs.csv)
