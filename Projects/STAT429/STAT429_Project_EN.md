@@ -35,8 +35,8 @@
 * **Analytical Expertise:** Demonstrated the ability to transform complex real-world economic data into sophisticated statistical models for actionable insights.
 
 ### 📂 Project Files
-* 💻 [R Markdown Source Code (.Rmd)](./STAT429/Stat429FinalProject_HY.Rmd)
-* 📄 [Final Analysis Report (PDF)](./STAT429/Stat429FinalProject_HY.pdf)
-* 📊 [Dataset: Global Crude Oil Prices](./STAT429/crude-oil-prices.csv)
-* 📊 [Dataset: Oil Consumption by Country](./STAT429/oil-consumption-by-country.csv)
-* 📊 [Dataset: Oil Production by Country](./STAT429/oil-production-by-country.csv)
+* 💻 [R Markdown Source Code (.Rmd)](./Stat429FinalProject_HY.Rmd)
+* 📄 [Final Analysis Report (PDF)](./Stat429FinalProject_HY.pdf)
+* 📊 [Dataset: Global Crude Oil Prices](./crude-oil-prices.csv)
+* 📊 [Dataset: Oil Consumption by Country](./oil-consumption-by-country.csv)
+* 📊 [Dataset: Oil Production by Country](./oil-production-by-country.csv)
