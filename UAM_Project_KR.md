@@ -24,5 +24,5 @@
 * **결과:** 전체 맵 대비 탐색 공간을 **96% 절감**하여 데이터 처리 효율을 극대화했으며, 이를 통해 실시간 시뮬레이션 환경을 성공적으로 구축함.
 
 ### 📂 관련 자료 (Project Files)
-* 📄 [UAM 최적 경로 생성 알고리즘 상세 설계서 (PDF)](./UAM/UAM_Algorithm_Design.pdf)
-* 🎬 [시뮬레이션 구동 및 GUI 시연 영상 (MP4)](./UAM/UAM_Simulation_Demo.mp4)
+* 📄 [UAM 최적 경로 생성 알고리즘 상세 설계서 (PDF)](./UAM/UAM_Project_PPT.pdf)
+* 🎬 [시뮬레이션 구동 및 GUI 시연 영상 (MP4)](./UAM/UAM_Project_GUI_Demonstration.mp4)
