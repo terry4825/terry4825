@@ -7,9 +7,10 @@
 ---
 
 ## 🚀 About Me
-- 🎓 **Statistics Graduate** with a focus on data-driven problem solving.
-- 💻 **Software Developer** experienced in reinforcement learning and simulation.
-- 🌐 **Global Communicator** fluent in English and Korean (6+ years in the US).
+* 🎓 **B.S. in Statistics @ UIUC** (University of Illinois Urbana-Champaign)
+* 💻 **Software Engineering Intern** | Developed UAM scenarios and Reinforcement Learning simulations.
+* 📊 **Data & Dev Hybrid** | Proficient in C++/Python algorithm dev and R-based statistical analysis.
+* 🛡️ **Verification-Oriented** | Committed to rigorous, evidence-based design and logical problem-solving.
 
 ## 🛠 Tech Stack
 - **Languages:** Python, C++, Java, R, SQL
