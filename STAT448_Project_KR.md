@@ -33,3 +33,9 @@
 * **SAS 숙련도 입증:** 데이터 핸들링부터 고급 통계 모델링까지 전 과정을 SAS 코드로 직접 구현하여 기업용 통계 솔루션 활용 능력 증명.
 * **복합적 가설 검정:** 단순 상관관계 분석을 넘어, 로지스틱 회귀와 로그 선형 모델을 결합하여 범주형과 수치형 변수가 혼재된 복잡한 의료 데이터를 효과적으로 해석.
 * **의료 도메인 데이터 해석:** 임상 수치의 의학적 의미를 통계적 유의성으로 치환하여 분석 보고서를 작성하는 실무적 커뮤니케이션 역량 확보.
+
+### 📂 관련 자료 (Project Files)
+* 📋 [프로젝트 과제 및 분석 요건 (PDF)](./STAT448/Project_Questions.pdf)
+* 📄 [통계 분석 답안 및 리포트 (PDF)](./STAT448/Hyunkyu_Yi_Final_Project.pdf)
+* 💾 [분석에 사용된 데이터셋 (CSV)](./STAT448/Indian Liver Patient Dataset (ILPD).csv)
+* 💻 [SAS 통계 분석 소스 코드 (.sas)](./STAT448/Hyunkyu_Yi_Final_Project.sas)
