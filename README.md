@@ -1,4 +1,4 @@
-# Hi there, I'm Lee Hyun-kyu (Terry) 👋
+# Hi there, I'm Terry Yi 👋
 
 <p align="center">
   <a href="./README_KR.md"><b>🇰🇷 한국어 버전으로 보기</b></a>
