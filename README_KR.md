@@ -1,7 +1,7 @@
 # 안녕하세요, 이현규입니다 👋
 
 <p align="center">
-  <a href="./README.md"><b>🇺🇸 View in English</b></a>
+  <a href="./README_EN.md"><b>🇺🇸 View in English</b></a>
 </p>
 
 ---
