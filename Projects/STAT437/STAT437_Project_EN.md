@@ -33,6 +33,6 @@
 * **Strategic Problem Solving:** Transformed an "inconclusive" result into a comprehensive technical report on data restructuring and advanced modeling roadmaps.
 
 ### 📂 Project Files
-* 📊 [Final Presentation Slide (PDF)](./STAT437/Project_PPT.pdf)
-* 💻 [Deep Learning Implementation & Analysis Report (.ipynb)](./STAT437/STAT_437_Project_HY.ipynb)
-* 💾 [Source Dataset: Pharmaceutical/Drug Data (CSV)](./STAT437/drugs.csv)
+* 📊 [Final Presentation Slide (PDF)](./Project_PPT.pdf)
+* 💻 [Deep Learning Implementation & Analysis Report (.ipynb)](./STAT_437_Project_HY.ipynb)
+* 💾 [Source Dataset: Pharmaceutical/Drug Data (CSV)](./drugs.csv)
