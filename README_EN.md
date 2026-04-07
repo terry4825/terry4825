@@ -29,9 +29,24 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ## 🔭 Featured Projects
-- **UAM Route Optimization:** Developed a C++ simulation for optimal flight paths using Q-Learning.
-- **Legal AI Solution:** Implemented a legal data analysis tool using XGBoost & Random Forest.
-- **Ecosystem Simulation:** Java-based OOP project "Rabbit and Meadow".
+
+### 🛸 Autonomous & Simulation
+* **UAM Route Optimization Simulation**
+  * Developed a flight path optimization algorithm using Q-Learning and C++.
+  * Achieved 3.87s computation time and optimized flight success rate.
+
+### ⚖️ AI & Data Science
+* **Legal Data AI Solution (Contest)**
+  * Proposed legal improvement ideas using Sentence-BERT and ML (XGBoost, Random Forest).
+  * Passed the initial screening and performed data modeling.
+
+### 📊 Statistical Analysis (UIUC Projects)
+* **Time Series Analysis (STAT 429)**
+  * Predictive modeling and data pattern analysis using time series datasets.
+* **Nonparametric Statistics (STAT 437)**
+  * Statistical inference and hypothesis testing using nonparametric methods.
+* **Advanced Data Analysis (STAT 448)**
+  * Applied multivariate analysis and statistical testing on complex datasets.
 
 ## 📫 Contact
 - **Email:** terry4825@gmail.com
