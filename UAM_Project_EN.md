@@ -1,23 +1,25 @@
-# 🛸 UAM Route Optimization Simulation & GUI Development
+# 🛸 UAM Optimal Route Generation Simulation & GUI Development
 
 ## 📌 Project Overview
-* **Period:** July 2023 - Dec 2023 (Internship Project)
-* **Objective:** Developing optimized flight paths for UAM using Reinforcement Learning and a real-time visualization system.
-* **Role:** Implemented C++ Reinforcement Learning algorithms and designed the simulator GUI using the Qt framework.
+* **Period:** Jul 2023 - Dec 2023 (Internship Project)
+* **Objective:** Developing an optimal UAM flight path generation system using Reinforcement Learning (Q-Learning) and real-time visualization.
+* **Key Role:** Implemented Q-Learning algorithms based on C++ and designed the simulator GUI using the Qt framework.
 
 ## 🛠 Tech Stack
 * **Language:** C++
-* **Framework:** Qt (for GUI Development)
+* **Framework:** Qt (GUI Development)
 * **Algorithm:** Reinforcement Learning (Q-Learning)
-* **Tool:** Visual Studio
+* **Tools:** Visual Studio
 
 ## 🚀 Key Achievements & Features
-* **Optimal Routing:** Designed logic to avoid dynamic obstacles and find the shortest path using Q-Learning.
-* **User Interface (GUI):** Built a real-time dashboard using the Qt framework to visualize flight paths, obstacles, and environmental factors.
-* **Computational Efficiency:** Reduced processing time to **3.87 seconds** by implementing local optimization techniques.
-* **Reliability:** Achieved a **96% success rate** (48/50 trials), demonstrating high algorithm stability.
+* **Optimal Routing:** Designed a logic to derive the shortest distance while avoiding dynamic obstacles using Q-Learning.
+* **User Interface (GUI):** Implemented a real-time monitoring dashboard for flight paths, obstacles, and environmental factors using Qt.
+* **Efficiency Optimization:** Reduced computation time to **3.87 seconds** by introducing a Local Optimization technique.
+* **Reliability Verification (KTL Certified):**
+    * Officially verified by the **Korea Testing Laboratory (KTL)** for algorithm consistency and operational stability.
+    * Achieved a **96% success rate** (48/50 trials) in rigorous simulation tests, proving feasibility for real-world application.
 
-## 🧠 Technical Challenges & Solutions: Local Optimization
-* **Challenge:** Global searching in a $100\text{km} \times 100\text{km}$ ($100 \times 100$ grid) environment caused excessive computational overhead, making real-time path generation impossible.
-* **Solution:** Implemented **Local Optimization** by limiting the search radius to a $20 \times 20$ grid around the aircraft's current position.
-* **Impact:** Reduced search space complexity by **96%**, maximizing data processing efficiency and slashing computation time to **3.87s** for real-time simulation.
+## 🧠 Technical Challenge: Local Optimization
+* **Problem:** Global exploration of a $100\text{km} \times 100\text{km}$ ($100 \times 100$ grid) environment caused high computational complexity, making real-time generation impossible.
+* **Solution:** Applied **Local Optimization**, focusing on a $20 \times 20$ area ($10\text{km}$ radius) centered on the aircraft's current position.
+* **Result:** Reduced the search space by **96%** compared to the full map, successfully enabling a real-time simulation environment.
