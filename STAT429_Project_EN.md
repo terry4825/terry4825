@@ -1,21 +1,35 @@
-# 📈 Time Series Analysis & Predictive Modeling (STAT 429)
+# 📈 U.S. Oil Consumption & Production Trend Analysis (STAT 429)
+> **Individual Final Project: Time Series Forecasting and Modeling (Data: 1965-2022)**
 
 ## 📌 Project Overview
-* **Period:** [e.g., Jan 2024 - May 2024]
-* **Nature:** UIUC STAT 429 (Time Series Analysis) Course Project
-* **Objective:** Analyze trends and seasonality of specific time-series datasets and build optimal statistical models for forecasting.
+* **Period:** Jan 2024 - May 2024
+* **Nature:** UIUC STAT 429 (Time Series Analysis) **Individual Final Project**
+* **Objective:** Analyze long-term U.S. oil data to identify correlations between consumption and production and forecast future market trends.
 * **Tools:** R, RStudio
 
 ## 🛠 Tech Stack
 * **Language:** R
-* **Methods:** ARIMA, SARIMA, Box-Jenkins Methodology, Unit Root Test (ADF Test), ACF/PACF Analysis, Model Selection (AIC/BIC)
+* **Models:** * **Consumption:** `ARIMA(2,0,0)`
+  * **Production:** `ARIMA(1,0,2)`
+  * **Regression:** Integrated regression modeling to analyze the impact of global oil prices and production on consumption.
+* **Methods:** Stationarity Check, Box-Jenkins Methodology, Diagnostic Checking, Forecasting (95% Confidence Interval).
 
-## 🚀 Key Responsibilities & Features
-* **Data Transformation:** Performed differencing and log transformations to stabilize variance and address non-stationarity.
-* **Model Identification:** Identified potential model candidates via ACF/PACF plots and determined optimal parameters ($p, d, q$) based on AIC/BIC criteria.
-* **Diagnostic Checking:** Conducted Ljung-Box tests to verify if residuals behave as white noise, ensuring model adequacy.
-* **Forecasting:** Generated point forecasts and 95% confidence intervals for future time points using the final selected model.
+## 🚀 Key Analysis & Features
 
-## 🧠 Key Insights
-* Gained experience in statistically quantifying uncertainty beyond simple numerical prediction.
-* Analyzed the impact of outliers on forecasting accuracy and implemented adjustment techniques to improve model robustness.
+### 1. Handling Non-stationarity in Long-term Data
+* Identified significant volatility, including the decline in consumption in the early 2000s and the surge in production since 2007.
+* Analyzed trends and autocorrelation to stabilize variance for accurate time-series modeling.
+
+### 2. Optimal Model Identification & Validation
+* **Consumption Model:** Confirmed `ARIMA(2,0,0)` as the best fit, reflecting the influence of previous data points.
+* **Production Model:** Identified `ARIMA(1,0,2)` to capture the stability of production trends including moving average components.
+* **Diagnostic Checking:** Verified model adequacy by ensuring residuals behaved as white noise.
+
+### 3. Multivariate Interaction via Regression
+* Supplemented time-series forecasting by analyzing how global oil prices and production levels causally affect consumption.
+* Interpreted the impact of global events (e.g., Russia-Ukraine war) on price spikes and resulting supply chain shifts.
+
+## 🏆 Key Achievements & Insights
+* **Data-Driven Forecasting:** Predicted a gradual increase in consumption while production remains stable over the next five years.
+* **Quantifying Uncertainty:** Applied a 95% confidence interval to forecasts to provide a statistically conservative and realistic market outlook.
+* **Analytical Expertise:** Demonstrated the ability to transform complex real-world economic data into sophisticated statistical models for actionable insights.
