@@ -11,7 +11,7 @@
 
 ## 🛠 분석 기술 스택
 * **Language:** R
-* **Selected Algorithms:** * **K-medoids (PAM):** 실제 데이터 포인트를 중심점으로 사용하여 이상치에 강건한(Robust) 군집화 시도
+* **Selected Algorithms:** **K-medoids (PAM):** 실제 데이터 포인트를 중심점으로 사용하여 이상치에 강건한(Robust) 군집화 시도
     * **Fuzzy C-means:** 데이터 포인트가 여러 군집에 속할 수 있는 가중치를 분석하여 보건 데이터의 모호성 탐색
 * **Methods:** Silhouette Coefficient (실루엣 계수), Hierarchical Clustering (Single Linkage), Data Preprocessing
 
