@@ -32,3 +32,9 @@
 * **SAS Proficiency:** Demonstrated end-to-end expertise in SAS, from data preprocessing to complex statistical modeling for a large-scale individual project.
 * **Integrated Analysis:** Successfully combined disparate methods (Logistic Regression, ANOVA, Log-linear models) to derive coherent insights from a dataset with both categorical and continuous variables.
 * **Data-to-Insight Translation:** Translated complex clinical data into actionable medical insights, showcasing strong technical reporting skills for healthcare stakeholders.
+
+### 📂 Project Files
+* 📋 [Project Requirements & Case Study Questions (PDF)](./STAT448/Project_Questions.pdf)
+* 📄 [Final Statistical Analysis Report (PDF)](./STAT448/Hyunkyu_Yi_Final_Project.pdf)
+* 💾 [Source Dataset: Indian Liver Patient Dataset (ILPD)](./STAT448/Indian_Liver_Patient_Dataset_(ILPD).csv)
+* 💻 [SAS Statistical Programming Code (.sas)](./STAT448/Hyunkyu_Yi_Final_Project.sas)
