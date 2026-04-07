@@ -37,7 +37,7 @@ Welcome! I am a data-driven problem solver specializing in bridging the gap betw
 ## 💼 Work Experience
 * **Software Development Intern | MOASOFT, South Korea** (Jun 2023 - Dec 2023)
   * Developed a Reinforcement Learning-based pathfinding simulation for UAM systems using C++.
-  * Provided technical interpretation for FAA Designated Engineering Representative (DER) workshops, facilitating communication on drone system certification.
+  * **Professional Interpreter:** Facilitated communication between an FAA Designated Engineering Representative (DER) and domestic staff during workshops on **DO-178C** (Software Considerations in Airborne Systems and Equipment Certification).
 
 ## 🎓 Education
 * **University of Illinois Urbana-Champaign (UIUC)**
