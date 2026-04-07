@@ -9,7 +9,7 @@
 
 ## 🛠 Tech Stack
 * **Language:** SAS
-* **Statistical Methods:** * **Logistic Regression:** Identifying predictors and calculating Odds Ratios for liver disease.
+* **Statistical Methods:** **Logistic Regression:** Identifying predictors and calculating Odds Ratios for liver disease.
     * **ANOVA & Log-linear Modeling:** Analyzing differences in clinical measures across demographic groups.
     * **Variable Selection:** Utilizing Stepwise Selection for optimized model complexity.
 * **Diagnostics:** Hosmer-Lemeshow Goodness-of-Fit, Residual Diagnostics, Multicollinearity testing (VIF).
