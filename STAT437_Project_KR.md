@@ -34,7 +34,7 @@
 * **정직한 데이터 과학:** 통계적 가설이 성립하지 않는 상황을 논리적으로 설명하고, 이를 바탕으로 더 나은 분석 모델을 위한 데이터 설계(Design) 방향을 제시하는 전문성 확보.
 
 ### 📂 관련 자료 (Project Files)
-* 📊 [프로젝트 최종 발표 자료 (PDF)](./STAT437/Project_PPT.pptx)
+* 📊 [프로젝트 최종 발표 자료 (PDF)](./STAT437/Project_PPT.pdf)
 * 💻 [딥러닝 모델 구현 소스 코드 (.py / .ipynb)](./STAT437/STAT_437_Project_HY.ipynb)
 * 📄 [코드 실행 결과 및 성능 분석 리포트 (PDF)](./STAT437/STAT_437_Project_HY.pdf)
 * 💾 [분석에 사용된 데이터셋 (CSV/Data)](./STAT437/drugs.csv)
