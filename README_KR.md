@@ -34,21 +34,25 @@
 
 ## 🔭 주요 프로젝트 (Featured Projects)
 
-### 1. [AI-based Legal Data Analysis & Improvement Solution](./Legal_Project_KR.md)
-* **Keyword:** #AI_Architecture #Legal_Tech #S-BERT #AWS
-* **Summary:** 제1회 법령데이터 활용 아이디어 공모전 1차 통과작. 법령 간 모순 탐지를 위한 AI 파이프라인 및 클라우드 아키텍처 설계.
+### [1. UAM 최적 경로 생성 시뮬레이션 개발 (C++)](./UAM_Project_KR.md)
+* **Keyword:** #C++ #Reinforcement_Learning #Q-Learning #UAM
+* **Summary:** 강화학습을 활용한 도심 항공 모빌리티(UAM) 최적 경로 생성 시뮬레이터. 로컬 최적화 알고리즘을 통해 계산 시간을 3.87초로 단축하며 96%의 성공률 달성.
 
-### 2. [U.S. Oil Market Forecasting (STAT 429)](./STAT429_Project_KR.md)
+### [2. AI 기반 법률 개선 및 데이터 활용 솔루션 제안](./Legal_Project_KR.md)
+* **Keyword:** #AI_Architecture #S-BERT #AWS #Legal_Tech
+* **Summary:** 제1회 법령데이터 활용 아이디어 공모전 1차 통과작. S-BERT와 AWS를 활용하여 법령 간 모순을 탐지하는 시스템 아키텍처 설계.
+
+### [3. 미국 석유 시장 소비 및 생산 트렌드 분석](./STAT429_Project_KR.md)
 * **Keyword:** #Time_Series #ARIMA #Forecasting #R
-* **Summary:** 1965-2022년 미국 석유 데이터를 활용한 시계열 분석. ARIMA(2,0,0) 및 ARIMA(1,0,2) 모델을 통한 향후 5년 시장 예측.
+* **Summary:** 1965-2022년 미국 석유 데이터를 활용한 시계열 분석 및 ARIMA 모델 기반 향후 5년 예측 수행.
 
-### 3. [Cocaine Abuse Pattern Clustering](./STAT437_Project_KR.md)
-* **Keyword:** #Unsupervised_Learning #Clustering #K-medoids #Data_Diagnosis
-* **Summary:** 비지도 학습을 활용한 미국 내 약물 오남용 패턴 분석. 데이터의 구조적 결함(왜곡, 자기상관성)을 통계적으로 진단한 기술적 보고서.
+### [4. 비지도 학습을 통한 약물 오남용 패턴 진단](./STAT437_Project_KR.md)
+* **Keyword:** #Unsupervised_Learning #K-medoids #Data_Diagnosis #R
+* **Summary:** K-medoids 군집화를 활용한 패턴 분석. 데이터의 구조적 결함(왜곡, 자기상관성)을 통계적으로 진단하여 분석의 타당성 검증.
 
-### 4. [Multivariate Analysis of Liver Disease (STAT 448)](./STAT448_Project_KR.md)
+### [5. SAS 기반 인도 간 질환 환자(ILPD) 다변량 분석](./STAT448_Project_KR.md)
 * **Keyword:** #Advanced_Statistics #SAS #Logistic_Regression #Medical_Data
-* **Summary:** 인도 간 질환 환자 데이터(ILPD) 분석. 로지스틱 회귀 및 ANOVA를 통해 성별/연령별 질환 예측 모델 구축 및 SAS 숙련도 입증.
+* **Summary:** 로지스틱 회귀 및 ANOVA를 활용한 임상 지표 분석. SAS를 통한 엔터프라이즈급 통계 핸들링 역량 증명.
 ---
 
 ## 📫 연락처 (Contact)
