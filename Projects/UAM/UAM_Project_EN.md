@@ -25,5 +25,5 @@
 * **Result:** Reduced the search space by **96%** compared to the full map, successfully enabling a real-time simulation environment.
 
 ### 📂 Project Files
-* 📄 [UAM Optimal Path Generation: Technical Design Specification (PDF)](./UAM/UAM_Project_PPT.pdf)
-* 🎬 [UAM Simulation & GUI Demonstration Video (MP4)](./UAM/UAM_Project_GUI_Demonstration.mp4)
+* 📄 [UAM Optimal Path Generation: Technical Design Specification (PDF)](./UAM_Project_PPT.pdf)
+* 🎬 [UAM Simulation & GUI Demonstration Video (MP4)](./UAM_Project_GUI_Demonstration.mp4)
