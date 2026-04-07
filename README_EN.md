@@ -9,7 +9,7 @@
 ## 🚀 About Me
 * 🎓 **B.S. in Statistics @ UIUC** (University of Illinois Urbana-Champaign)
 * 💻 **Software Engineering Intern** | Developed UAM scenarios and Reinforcement Learning simulations.
-* 📊 **Data & Dev Hybrid** | Proficient in C++/Python algorithm dev and R-based statistical analysis.
+* 📊 **Data & Dev Hybrid** | Proficient in Statistical Analysis (**R, SAS**) & Algorithm Dev (C++, Python).
 * 🛡️ **Verification-Oriented** | Committed to rigorous, evidence-based design and logical problem-solving.
 
 ## 🛠 Tech Stack
