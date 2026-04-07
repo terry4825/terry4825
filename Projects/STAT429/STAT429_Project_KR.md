@@ -35,8 +35,8 @@
 * **전문 역량 증명:** 복잡한 현실 세계의 경제 데이터를 정교한 통계 모델(ARIMA)로 변환하고 해석하는 독립적 분석 수행 능력 입증.
 
 ### 📂 관련 자료 (Project Files)
-* 💻 [R Markdown 분석 소스 코드 (.Rmd)](./STAT429/Stat429FinalProject_HY.Rmd)
-* 📄 [분석 리포트 확인 (PDF)](./STAT429/Stat429FinalProject_HY.pdf)
-* 📊 [데이터셋: 글로벌 원유 가격 추이 (CSV)](./STAT429/crude-oil-prices.csv)
-* 📊 [데이터셋: 국가별 석유 소비량 (CSV)](./STAT429/oil-consumption-by-country.csv)
-* 📊 [데이터셋: 국가별 석유 생산량 (CSV)](./STAT429/oil-production-by-country.csv)
+* 💻 [R Markdown 분석 소스 코드 (.Rmd)](./Stat429FinalProject_HY.Rmd)
+* 📄 [분석 리포트 확인 (PDF)](./Stat429FinalProject_HY.pdf)
+* 📊 [데이터셋: 글로벌 원유 가격 추이 (CSV)](./crude-oil-prices.csv)
+* 📊 [데이터셋: 국가별 석유 소비량 (CSV)](./oil-consumption-by-country.csv)
+* 📊 [데이터셋: 국가별 석유 생산량 (CSV)](./oil-production-by-country.csv)
