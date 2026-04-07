@@ -16,23 +16,23 @@
 
 ## 🚀 주요 프로젝트 (Featured Projects)
 
-### [1. UAM 최적 경로 생성 시뮬레이션 개발 (C++)](./Projects/UAM_Project_KR.md)
+### [1. UAM 최적 경로 생성 시뮬레이션 개발 (C++)](./Projects/UAM/UAM_Project_KR.md)
 * **Keyword:** #C++ #강화학습 #Q-Learning #UAM
 * **요약:** 도심 항공 모빌리티(UAM) 경로 탐색 시뮬레이터 개발. Q-Learning과 로컬 최적화 기법을 적용하여 96%의 성공률 및 연산 시간 3.87초 달성.
 
-### [2. AI 기반 법령 데이터 분석 및 개선 전략 제안](./Projects/Legal_Project_KR.md)
+### [2. AI 기반 법령 데이터 분석 및 개선 전략 제안](./Projects/Legal_Project/Legal_Project_KR.md)
 * **Keyword:** #AI_아키텍처 #IT_기반_법률_서비스
 * **요약:** 제1회 법령데이터 활용 아이디어 공모전 1차 통과. 다차원적 자연어 처리(NLP)와 기계학습 모델을 결합하여 법령 간 의미론적 모순을 탐지하는 지능형 진단 솔루션 설계.
 
-### [3. 미국 석유 시장 소비 및 생산 트렌드 예측](./Projects/STAT429_Project_KR.md)
+### [3. 미국 석유 시장 소비 및 생산 트렌드 예측](./Projects/STAT429/STAT429_Project_KR.md)
 * **Keyword:** #시계열분석 #ARIMA #예측 #R
 * **요약:** 1965-2022년 미국 석유 데이터 분석. 최적의 ARIMA(2,0,0) 및 ARIMA(1,0,2) 모델을 식별하여 향후 5년 트렌드 예측.
 
-### [4. 약물 오남용 패턴 군집 분석](./Projects/STAT437_Project_KR.md)
+### [4. 약물 오남용 패턴 군집 분석](./Projects/STAT437/STAT437_Project_KR.md)
 * **Keyword:** #비지도학습 #K-medoids #데이터진단 #Python
 * **요약:** K-medoids 및 Fuzzy C-means를 활용한 공중보건 데이터 분석. 데이터 왜곡이 군집 타당성에 미치는 영향을 통계적으로 진단.
 
-### [5. SAS를 활용한 인도 간 질환 환자(ILPD) 다변량 분석](./Projects/STAT448_Project_KR.md)
+### [5. SAS를 활용한 인도 간 질환 환자(ILPD) 다변량 분석](./Projects/STAT448/STAT448_Project_KR.md)
 * **Keyword:** #SAS #로지스틱회귀 #의료데이터
 * **요약:** 583명의 임상 데이터를 활용한 질환 지표 분석. 로지스틱 회귀와 ANOVA를 통해 SAS 통계 핸들링 역량 증명.
 
