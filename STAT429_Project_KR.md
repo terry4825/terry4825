@@ -33,3 +33,10 @@
 * **데이터 기반 의사결정:** 향후 5년간 소비는 완만하게 증가하나 생산은 상대적으로 안정적일 것이라는 예측치를 도출하여 시장 변화에 대한 전략적 시각 제시.
 * **통계적 보수성 유지:** 예측값에 95% 신뢰구간(Confidence Interval)을 적용하여 미래의 불확실성을 계량적으로 제시.
 * **전문 역량 증명:** 복잡한 현실 세계의 경제 데이터를 정교한 통계 모델(ARIMA)로 변환하고 해석하는 독립적 분석 수행 능력 입증.
+
+### 📂 관련 자료 (Project Files)
+* 💻 [R Markdown 분석 소스 코드 (.Rmd)](./STAT429/Stat429FinalProject_HY.Rmd)
+* 📄 [분석 리포트 확인 (PDF/HTML)](./STAT429/Stat429FinalProject_HY.pdf)
+* 📊 [사용된 데이터셋 (CSV_1)](./STAT429/crude-oil-prices.csv)
+* 📊 [사용된 데이터셋 (CSV_2)](./STAT429/oil-consumption-by-country.csv)
+* 📊 [사용된 데이터셋 (CSV_3)](./STAT429/oil-production-by-country.csv)
