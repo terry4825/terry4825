@@ -9,7 +9,7 @@
 
 ## 🛠 분석 기술 스택
 * **Language:** SAS
-* **Statistical Methods:** * **Logistic Regression:** 간 질환 유무에 영향을 미치는 주요 임상 요인 식별 및 오즈비(Odds Ratio) 산출
+* **Statistical Methods:** **Logistic Regression:** 간 질환 유무에 영향을 미치는 주요 임상 요인 식별 및 오즈비(Odds Ratio) 산출
     * **ANOVA & T-test:** 환자 군과 비환자 군 간의 연령 및 단백질 수치 차이 검정
     * **Log-linear Models:** 성별과 질환 유무 간의 범주형 데이터 상호작용 분석
     * **Stepwise Selection:** 최적의 예측 변수 조합 선택을 위한 변수 선택법 적용
