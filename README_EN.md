@@ -23,7 +23,6 @@
 ### 📊 Data & Statistical Analysis
 ![SAS](https://img.shields.io/badge/SAS-00487F?style=flat-square&logo=sas&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ### 🔧 Tools & Others
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
