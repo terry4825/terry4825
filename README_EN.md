@@ -35,8 +35,7 @@
 ## 🔭 Featured Projects
 
 ### 🛸 Autonomous & Simulation
-### 🛸 Autonomous & Simulation
-* **[UAM Route Optimization Simulation](./UAM_Project.md)** 
+* **[UAM Route Optimization Simulation](./UAM_Project_EN.md)** 
   * Developed a flight path optimization algorithm using Q-Learning and C++.
   * Achieved 3.87s computation time and optimized flight success rate.
 
