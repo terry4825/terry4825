@@ -13,9 +13,21 @@
 * 🛡️ **Verification-Oriented** | Committed to rigorous, evidence-based design and logical problem-solving.
 
 ## 🛠 Tech Stack
-- **Languages:** Python, C++, Java, R, SQL
-- **AI/Data:** Reinforcement Learning (Q-Learning), Scikit-learn, Sentence-BERT
-- **Tools:** Git, Docker, Linux
+
+### 💻 Programming Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+
+### 📊 Data & Statistical Analysis
+![SAS](https://img.shields.io/badge/SAS-00487F?style=flat-square&logo=sas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+### 🔧 Tools & Others
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ## 🔭 Featured Projects
 - **UAM Route Optimization:** Developed a C++ simulation for optimal flight paths using Q-Learning.
