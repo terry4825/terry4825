@@ -45,7 +45,7 @@
   * Passed the initial screening and performed data modeling.
 
 ### 📊 Statistical Analysis (UIUC Projects)
-* **Time Series Analysis (STAT 429)**
+* **[Time Series Analysis (STAT 429)](STAT429_Project_EN.md)**
   * Predictive modeling and data pattern analysis using time series datasets.
 * **Nonparametric Statistics (STAT 437)**
   * Statistical inference and hypothesis testing using nonparametric methods.
