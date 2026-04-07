@@ -35,7 +35,7 @@
 * **의료 도메인 데이터 해석:** 임상 수치의 의학적 의미를 통계적 유의성으로 치환하여 분석 보고서를 작성하는 실무적 커뮤니케이션 역량 확보.
 
 ### 📂 관련 자료 (Project Files)
-* 📋 [프로젝트 과제 및 분석 요건 (PDF)](./STAT448/Project_Questions.pdf)
-* 📄 [통계 분석 답안 및 리포트 (PDF)](./STAT448/Hyunkyu_Yi_Final_Project.pdf)
-* 💾 [분석에 사용된 데이터셋 (CSV)](./STAT448/Indian_Liver_Patient_Dataset_(ILPD).csv)
-* 💻 [SAS 통계 분석 소스 코드 (.sas)](./STAT448/Hyunkyu_Yi_Final_Project.sas)
+* 📋 [프로젝트 과제 및 분석 요건 (PDF)](./Project_Questions.pdf)
+* 📄 [통계 분석 답안 및 리포트 (PDF)](./Hyunkyu_Yi_Final_Project.pdf)
+* 💾 [분석에 사용된 데이터셋 (CSV)](./Indian_Liver_Patient_Dataset_(ILPD).csv)
+* 💻 [SAS 통계 분석 소스 코드 (.sas)](./Hyunkyu_Yi_Final_Project.sas)
