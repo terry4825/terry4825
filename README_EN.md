@@ -12,7 +12,7 @@ Welcome! I am a statistical analyst dedicated to deriving actionable insights fr
 
 ## 🚀 Featured Projects
 
-### [1. UAM Optimal Path Generation Simulation (C++)](./UAM_Project_EN.md)
+### [1. UAM Optimal Path Generation Simulation (C++)](./Projects/UAM_Project_EN.md)
 * **Keyword:** #C++ #Reinforcement_Learning #Q-Learning #UAM
 * **Summary:** Developed a pathfinding simulator for Urban Air Mobility (UAM). Achieved a **96% success rate** and reduced computation time to **3.87s** by implementing Q-Learning with Local Optimization.
 
