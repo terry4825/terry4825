@@ -1,25 +1,33 @@
-# ⚖️ AI-based Legal Data Analysis & Improvement Solution Proposal
+# ⚖️ AI-based Legal Data Analysis & Legislative Improvement Solution
+> **Participant in the 1st Legal Data Utilization Idea Contest | Passed Initial Screening**
 
 ## 📌 Project Overview
-* **Period:** July 2023 - Sept 2023 (Contest Entry)
-* **Organizer:** Ministry of Government Legislation, Korea
-* **Objective:** Designing an AI model architecture to analyze vast legal datasets and identify areas for legislative improvement.
-* **Role:** Established data preprocessing strategies and designed the analysis pipeline using S-BERT and XGBoost.
+* **Period:** May 1, 2025 - June 30, 2025
+* **Organizer:** Ministry of Government Legislation, Republic of Korea
+* **Objective:** Designing an AI-driven platform to diagnose structural flaws in legislation (redundancy, conflict, obsolescence) and propose automated policy improvements using Big Data and AI.
+* **Key Role:** **Technical Architect & Lead Designer for AI Solution**
+    * Designed the data analysis pipeline and machine learning algorithm framework.
+    * Planned the AWS-based cloud infrastructure and real-time data processing workflow.
 
-## 🛠 Proposed Tech Stack
-* **Natural Language Processing:** Sentence-BERT (S-BERT)
-* **Machine Learning:** XGBoost, Random Forest
-* **Analysis Tools:** Python, Scikit-learn
-* **Data Scope:** Legislative texts and judicial precedents
+## 🛠 Proposed Technical Architecture
 
-## 🚀 Key Planning Features
-* **Context-Aware Legal Search:** Designed a mechanism to extract relevant clauses based on semantic similarity using Sentence-BERT, moving beyond simple keyword matching.
-* **Legislative Improvement Classification:** Proposed an ensemble model (XGBoost & Random Forest) to automatically categorize and prioritize laws requiring revision.
-* **Data Pipeline:** Formalized a workflow to vectorize unstructured legal texts and integrate them with structured metadata for comprehensive analysis.
+### 🤖 AI & Machine Learning
+* **NLP & Embedding:** `Sentence-BERT` (Quantifying semantic similarity between legal clauses to detect contextual conflicts).
+* **Clustering:** `K-Means` (Detecting redundant or unnecessary clauses through similarity-based grouping).
+* **Classification & Regression:** `XGBoost`, `Random Forest` (Predicting risk scores and prioritizing legislative revision based on public petition frequency and judicial precedents).
+* **Generative AI:** `LLM` (Automated generation of concise legal improvement drafts and summaries).
 
-## 🏆 Key Achievement
-* **Validation of Logic:** Passed the **initial screening of the 1st Legal Data Utilization Idea Contest**, recognized for technical feasibility and innovative approach.
-* **Statistical Rigor:** Applied statistical hypothesis testing frameworks from UIUC to ensure the reliability of the proposed data modeling.
+### ☁️ Cloud Infrastructure (AWS)
+* **Data Pipeline:** `AWS Kinesis` (Real-time data ingestion), `AWS Glue` (ETL processes).
+* **Storage & DB:** `Amazon S3` (Data Lake), `Amazon RDS` (Metadata management).
+* **Model Serving:** `Amazon SageMaker` (Model training & deployment), `AWS Lambda` (Event-driven computing).
 
-## 🧠 Insights
-* Identified that subtle nuances in legal text lead to significant differences in interpretation, leading to a logical justification for advanced embedding techniques like S-BERT in the legal domain.
+## 🚀 Key Planning & Design Features
+
+### 1. Multi-dimensional Legal Data Integration
+* **Data Linkage:** Integrated over 8 types of data via the Public Data Portal API (Current laws, Judicial precedents, Administrative trials, Civil petition big data, Legislative history, etc.).
+* **Semantic Analysis:** Overcame the limitations of simple keyword matching by applying S-BERT embeddings to identify **contextual contradictions and logical flaws** within legal texts.
+
+### 2. Strategic Data Processing Pipeline
+1.  **Ingestion & Preprocessing:** Collected unstructured legal texts via APIs, performed text cleaning, and executed embedding using a legal-specific vocabulary dictionary.
+2.  **Diagnostic Modeling:** Grouped similar clauses using K-Means and quantified the "Necessity for Revision" (Risk Score) using XGBoost and Random Forest to determine
