@@ -6,7 +6,7 @@
 * **Languages:** ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![SAS](https://img.shields.io/badge/SAS-00487F?style=flat-square&logo=sas&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 * **Statistics:** 시계열 분석(ARIMA), 비지도 학습(Clustering), 회귀 모델링, 다변량 분석
 * **Specialties:** 강화학습(Q-Learning), AI 시스템 아키텍처 설계, 데이터 기반 의사결정
-* **Languages:** **한국어** (Native), **영어** (Native/Bilingual), **일본어** (기초 회화)
+* **Languages:** **한국어** (모국어), **영어** (상급), **일본어** (기초 회화)
 
 ---
 
