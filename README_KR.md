@@ -35,7 +35,7 @@
 ## 🔭 주요 프로젝트 (Featured Projects)
 
 ### 🛸 Autonomous & Simulation
-* **UAM 최적 경로 생성 시뮬레이션**
+* **[UAM 최적 경로 생성 시뮬레이션](./UAM_Project_KR.md)** 
   * Q-Learning과 C++을 활용한 비행 경로 최적화 및 시뮬레이터 구현
   * 연산 시간 3.87초 달성 및 비행 성공률 최적화
 
