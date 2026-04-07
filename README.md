@@ -22,7 +22,9 @@
 - **Ecosystem Simulation:** Java-based OOP project "Rabbit and Meadow".
 
 ## 📫 Contact
-- **Email:** [본인 이메일 주소]
-- **LinkedIn:** [링크가 있다면 삽입]
+- **Email:** terry4825@gmail.com
+- **LinkedIn:** www.linkedin.com/in/terryyi1996
+
+
 
 ---
