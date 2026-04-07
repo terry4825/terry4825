@@ -1,5 +1,9 @@
 # 📊 Hyunkyu Yi | Data Science & Statistical Analysis Portfolio
 
+<p align="center">
+  <a href="./README_KR.md"><b>🇰🇷 한국어 버전으로 보기</b></a>
+</p>
+
 Welcome! I am a statistical analyst dedicated to deriving actionable insights from complex datasets by bridging the gap between rigorous statistical theory and software engineering. My expertise lies in advanced multivariate statistics, time series forecasting, and reinforcement learning-based optimization.
 
 ## 🛠 Core Competencies (Tech Stack)
