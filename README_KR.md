@@ -40,7 +40,7 @@
   * 연산 시간 3.87초 달성 및 비행 성공률 최적화
 
 ### ⚖️ AI & Data Science
-* **법률 데이터 활용 AI 솔루션 (공모전)**
+* **[법률 데이터 활용 AI 솔루션 (공모전)](./Legal_Project_KR.md)**
   * Sentence-BERT 및 머신러닝(XGBoost, Random Forest) 기반 법률 개선 아이디어 제안
   * 공모전 1차 서류 심사 통과 및 데이터 모델링 수행
 
