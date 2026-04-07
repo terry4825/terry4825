@@ -25,7 +25,7 @@ Welcome! I am a data-driven problem solver specializing in bridging the gap betw
 * **Summary:** Conducted long-term analysis on U.S. oil data (1965-2022). Identified optimal ARIMA(2,0,0) and ARIMA(1,0,2) models to forecast market trends for the next five years.
 
 ### [4. Clustering Analysis of Cocaine Abuse Patterns](./STAT437_Project_EN.md)
-* **Keyword:** #Unsupervised_Learning #K-medoids #Data_Diagnosis #R
+* **Keyword:** #Unsupervised_Learning #K-medoids #Data_Diagnosis #Python
 * **Summary:** Diagnosed public health data structures using K-medoids and Fuzzy C-means. Focused on identifying the impact of data skewness and autocorrelation on clustering validity.
 
 ### [5. Multivariate Analysis of Liver Disease (ILPD) using SAS](./STAT448_Project_EN.md)
