@@ -33,9 +33,24 @@
 ---
 
 ## 🔭 주요 프로젝트 (Featured Projects)
-* **UAM 최적 경로 생성 시뮬레이션:** Q-Learning과 C++을 활용한 비행 경로 최적화 (연산 시간 3.87초 달성)
-* **법률 데이터 활용 AI 솔루션:** XGBoost 및 Random Forest를 활용한 법률 개선 아이디어 제안
-* **객체 지향 설계 시뮬레이션:** Java 기반의 "토끼와 초원" 생태계 시뮬레이션 구현
+
+### 🛸 Autonomous & Simulation
+* **UAM 최적 경로 생성 시뮬레이션**
+  * Q-Learning과 C++을 활용한 비행 경로 최적화 및 시뮬레이터 구현
+  * 연산 시간 3.87초 달성 및 비행 성공률 최적화
+
+### ⚖️ AI & Data Science
+* **법률 데이터 활용 AI 솔루션 (공모전)**
+  * Sentence-BERT 및 머신러닝(XGBoost, Random Forest) 기반 법률 개선 아이디어 제안
+  * 공모전 1차 서류 심사 통과 및 데이터 모델링 수행
+
+### 📊 Statistical Analysis (UIUC Projects)
+* **Time Series Analysis (STAT 429)**
+  * 시계열 데이터를 활용한 예측 모델링 및 데이터 패턴 분석
+* **Nonparametric Statistics (STAT 437)**
+  * 분포에 구애받지 않는 비모수적 추론 및 통계 검정 수행
+* **Advanced Data Analysis (STAT 448)**
+  * 고차원 데이터셋을 활용한 통계적 가설 검정 및 다변량 분석 기법 적용
 
 ---
 
