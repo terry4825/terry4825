@@ -11,7 +11,7 @@
 
 ## 🛠 Tech Stack
 * **Language:** R
-* **Selected Algorithms:** * **K-medoids (PAM):** Implemented for robust clustering against potential data outliers.
+* **Selected Algorithms:** **K-medoids (PAM):** Implemented for robust clustering against potential data outliers.
     * **Fuzzy C-means:** Explored the multidimensional relationships and membership weights of data points.
 * **Methods:** Silhouette Coefficient, Exploratory Data Analysis (EDA), Trend Analysis.
 
