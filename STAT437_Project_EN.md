@@ -1,35 +1,33 @@
-# ❄️ Clustering Analysis of Cocaine Abuse Patterns in the U.S. (STAT 437)
-> **Identifying Public Health Patterns using Unsupervised Learning (K-medoids, Hierarchical Clustering)**
+# ❄️ Clustering Analysis of Cocaine Abuse Patterns in the U.S.
+> **Diagnosing Public Health Data Structures via Unsupervised Learning (K-medoids & Fuzzy C-means)**
 
 ## 📌 Project Overview
-* **Period:** Aug 2024 - Dec 2024 (Finalized March 2025)
-* **Nature:** UIUC STAT 437 (Nonparametric Statistics) Team Project
-* **Objective:** Cluster U.S. states based on age-specific cocaine abuse rates to provide deeper insights for public health policy-making.
-* **Tools:** R, RStudio
+* **Period:** March 4, 2024 - May 13, 2024
+* **Nature:** Public Health Data Statistical Analysis Project
+* **Objective:** Cluster U.S. states based on cocaine abuse rates and conduct a technical diagnosis of the dataset's structural characteristics.
+* **Key Role:** **Model Selection & Validation of Analytical Adequacy**
+    * Independently selected **K-medoids** and **Fuzzy C-means** to handle outliers and overlapping cluster boundaries.
+    * Performed post-analysis reviews to identify structural limitations of the dataset and proposed future improvement strategies.
 
 ## 🛠 Tech Stack
 * **Language:** R
-* **Algorithms:** * **K-medoids (PAM):** Robust clustering to handle potential outliers in state-level data.
-  * **Hierarchical Clustering:** AGNES using Single, Complete, Average, and Ward linkage methods.
-* **Evaluation:** Silhouette Coefficient, Dendrogram visualization.
-* **Libraries:** `cluster`, `factoextra`, `tidyverse`
+* **Selected Algorithms:** * **K-medoids (PAM):** Implemented for robust clustering against potential data outliers.
+    * **Fuzzy C-means:** Explored the multidimensional relationships and membership weights of data points.
+* **Methods:** Silhouette Coefficient, Exploratory Data Analysis (EDA), Trend Analysis.
 
-## 🚀 Key Analysis & Features
+## 🚀 Key Responsibilities & Technical Insights
 
-### 1. High-Dimensional Data Preprocessing & EDA
-* Structured 17 years of longitudinal data covering three demographic groups (12-17, 18-25, 26+) across 50 states and D.C.
-* Investigated correlations between age groups and state-level trends to validate the clustering approach.
+### 1. Data Exploration & Technical Challenges
+* Structured 17 years of longitudinal cocaine usage data.
+* Identified significant skewness in population variables that dominated early clustering results, highlighting the critical need for feature selection.
 
-### 2. Advanced Clustering & Validation
-* **Hierarchical Approach:** Compared four linkage methods to identify the most natural hierarchical structure, addressing issues like "chaining" in single linkage.
-* **K-medoids (PAM):** Implemented Partitioning Around Medoids (PAM) for enhanced robustness compared to standard K-means.
-* **Model Evaluation:** Utilized Silhouette Plots to quantitatively measure cluster cohesion and separation, ensuring the optimal number of clusters ($k$).
+### 2. Model Diagnosis & Result Interpretation
+* **Analyzing Spatial-Temporal Similarity:** Discovered that 'State' and 'Year' variables caused excessive data density within the same regions (e.g., California clustering together across all years), hindering meaningful group separation.
+* **Scientific Interpretation of Inconclusiveness:** Statistically proved that the current dataset lacks distinct cluster boundaries for K-medoids and Fuzzy C-means, providing a rigorous validation of the model's limitations.
 
-### 3. Interpretation & Policy Recommendations
-* Identified specific high-risk clusters and analyzed geographic/demographic commonalities among member states.
-* Proposed integrating the findings with synthetic opioid (fentanyl) data to improve resource allocation for state health departments.
+### 3. Proposed Future Enhancements
+* Suggested integrating synthetic opioid (fentanyl) overdose data for multivariate analysis to identify high-risk areas more effectively.
 
 ## 🏆 Key Achievements & Insights
-* **Unsupervised Learning Expertise:** Demonstrated the ability to extract meaningful patterns from unlabeled complex public health datasets.
-* **Methodological Rigor:** Ensured high-quality results by comparing multiple distance metrics and linkage methods.
-* **Actionable Insights:** Transformed statistical outputs into strategic recommendations for policymakers, highlighting data storytelling skills.
+* **Critical Analytical Thinking:** Demonstrated professional integrity by identifying and explaining why the models were inconclusive based on data defects (Skewness, Auto-correlation).
+* **Strategic Problem Solving:** Transformed an "inconclusive" result into a comprehensive technical report on data restructuring and advanced modeling roadmaps.
