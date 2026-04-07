@@ -12,23 +12,23 @@ Welcome! I am a statistical analyst dedicated to deriving actionable insights fr
 
 ## 🚀 Featured Projects
 
-### [1. UAM Optimal Path Generation Simulation (C++)](./Projects/UAM_Project_EN.md)
+### [1. UAM Optimal Path Generation Simulation (C++)](./Projects/UAM/UAM_Project_EN.md)
 * **Keyword:** #C++ #Reinforcement_Learning #Q-Learning #UAM
 * **Summary:** Developed a pathfinding simulator for Urban Air Mobility (UAM). Achieved a **96% success rate** and reduced computation time to **3.87s** by implementing Q-Learning with Local Optimization.
 
-### [2. Intelligent Framework for Legislative Data Analysis](./Projects/Legal_Project_EN.md)
+### [2. Intelligent Framework for Legislative Data Analysis](./Projects/Legal_Project/Legal_Project_EN.md)
 * **Keyword:** #NLP #Semantic_Analysis #Ensemble_Learning
 * **Summary:** Awarded "Initial Screening Pass" in the 1st Legal Data Idea Contest. Designed an integrated analytical pipeline utilizing **Semantic Similarity (S-BERT)** and **Ensemble Learning** to detect structural contradictions in national legislation.
 
-### [3. U.S. Oil Market Consumption & Production Forecasting](./Projects/STAT429_Project_EN.md)
+### [3. U.S. Oil Market Consumption & Production Forecasting](./Projects/STAT429/STAT429_Project_EN.md)
 * **Keyword:** #Time_Series #ARIMA #Forecasting #R
 * **Summary:** Conducted rigorous time series modeling on U.S. oil data (1965-2022). Identified optimal ARIMA(2,0,0) and ARIMA(1,0,2) models to provide 5-year market forecasts with statistical confidence.
 
-### [4. Statistical Diagnosis of Cocaine Abuse Patterns](./Projects/STAT437_Project_EN.md)
+### [4. Statistical Diagnosis of Cocaine Abuse Patterns](./Projects/STAT437/STAT437_Project_EN.md)
 * **Keyword:** #Data_Diagnosis #Clustering #K-medoids #R
 * **Summary:** Diagnosed public health data structures using K-medoids and Fuzzy C-means. Focused on the **methodological validation** of clustering models against data skewness and autocorrelation.
 
-### [5. Multivariate Analysis of Liver Disease (ILPD) using SAS](./Projects/STAT448_Project_EN.md)
+### [5. Multivariate Analysis of Liver Disease (ILPD) using SAS](./Projects/STAT448/STAT448_Project_EN.md)
 * **Keyword:** #Advanced_Statistics #SAS #Logistic_Regression #Healthcare
 * **Summary:** Analyzed 583 clinical records using SAS. Built predictive models for liver disease using logistic regression and ANOVA, demonstrating high-level proficiency in enterprise statistical software.
 
