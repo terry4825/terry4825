@@ -17,8 +17,8 @@ Welcome! I am a data-driven problem solver specializing in bridging the gap betw
 * **Summary:** Developed a pathfinding simulator for Urban Air Mobility (UAM). Achieved a **96% success rate** and reduced computation time to **3.87 seconds** by implementing Q-Learning with Local Optimization.
 
 ### [2. AI-based Legal Data Analysis & Improvement Strategy](./Legal_Project_EN.md)
-* **Keyword:** #AI_Architecture #S-BERT #AWS #Legal_Tech
-* **Summary:** Awarded "Initial Screening Pass" in the 1st Legal Data Idea Contest. Designed an AI pipeline using S-BERT and AWS to detect structural contradictions in national legislation.
+* **Keyword:** #AI_Architecture #S-BERT #Legal_Tech
+* **Summary:** Awarded "Initial Screening Pass" in the 1st Legal Data Idea Contest. Designed an AI pipeline using S-BERT for semantic similarity analysis and XGBoost for risk prioritization.
 
 ### [3. U.S. Oil Market Consumption & Production Forecasting](./STAT429_Project_EN.md)
 * **Keyword:** #Time_Series #ARIMA #Forecasting #R
