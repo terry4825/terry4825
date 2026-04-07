@@ -8,7 +8,7 @@
 * **사용 도구:** R, RStudio
 
 ## 🛠 분석 기술 스택
-* **Language:** R
+* **Language:** * R
 * **Models:** * **Consumption:** `ARIMA(2,0,0)`
   * **Production:** `ARIMA(1,0,2)`
   * **Regression:** 전역 유가 및 생산량이 소비에 미치는 영향 분석을 위한 회귀 모델 결합
