@@ -30,4 +30,14 @@
 
 ### 2. Strategic Data Processing Pipeline
 1.  **Ingestion & Preprocessing:** Collected unstructured legal texts via APIs, performed text cleaning, and executed embedding using a legal-specific vocabulary dictionary.
-2.  **Diagnostic Modeling:** Grouped similar clauses using K-Means and quantified the "Necessity for Revision" (Risk Score) using XGBoost and Random Forest to determine
+2.  **Diagnostic Modeling:** Grouped similar clauses using K-Means and quantified the "Necessity for Revision" (Risk Score) using XGBoost and Random Forest to determine priority.
+3.  **Draft Generation:** Automatically generated preliminary legislative improvement drafts using LLMs based on identified structural flaws.
+
+### 3. User-Centric Visualization Dashboard
+* Visualized inter-legal relationships using Network Graphs to intuitively present "Regulatory Entanglement."
+* Provided a Heatmap of legal risk scores by region and sector to support rapid decision-making for policymakers.
+
+## 🏆 Key Achievements & Insights
+* **Validation of Technical Feasibility:** Passed the **initial screening of the 1st Legal Data Utilization Idea Contest** based on a rigorous algorithm pipeline and cloud architecture design.
+* **Data-Driven Governance:** Proposed a logical framework to transition traditional, subjective legal audits into an objective, AI-centric system.
+* **Academic Integration:** Leveraged a background in Statistics from UIUC to establish a process for converting unstructured text into quantitative metrics (Similarity scores, Prediction weights).
