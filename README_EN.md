@@ -3,7 +3,7 @@
 Welcome! I am a data-driven problem solver specializing in bridging the gap between statistical insights and practical software engineering. My expertise lies in Reinforcement Learning, Multivariate Statistics, and AI System Design.
 
 ## 🛠 Core Competencies (Tech Stack)
-* **Languages:** C++, R, SAS, Python, SQL
+* **Languages:** ![C++|53](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white), ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white), ![SAS](https://img.shields.io/badge/SAS-00487F?style=flat-square&logo=sas&logoColor=white), ![Python|68](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 * **Statistics:** Time Series (ARIMA), Unsupervised Learning (Clustering), Regression Modeling, Multivariate Analysis
 * **Specialties:** Reinforcement Learning (Q-Learning), AI System Architecture, Data-driven Decision Making
 * **Communication:** Native-level English (Global Communicator)
