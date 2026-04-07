@@ -34,7 +34,7 @@
 * **Data-to-Insight Translation:** Translated complex clinical data into actionable medical insights, showcasing strong technical reporting skills for healthcare stakeholders.
 
 ### 📂 Project Files
-* 📋 [Project Requirements & Case Study Questions (PDF)](./STAT448/Project_Questions.pdf)
-* 📄 [Final Statistical Analysis Report (PDF)](./STAT448/Hyunkyu_Yi_Final_Project.pdf)
-* 💾 [Source Dataset: Indian Liver Patient Dataset (ILPD)](./STAT448/Indian_Liver_Patient_Dataset_(ILPD).csv)
-* 💻 [SAS Statistical Programming Code (.sas)](./STAT448/Hyunkyu_Yi_Final_Project.sas)
+* 📋 [Project Requirements & Case Study Questions (PDF)](./Project_Questions.pdf)
+* 📄 [Final Statistical Analysis Report (PDF)](./Hyunkyu_Yi_Final_Project.pdf)
+* 💾 [Source Dataset: Indian Liver Patient Dataset (ILPD)](./Indian_Liver_Patient_Dataset_(ILPD).csv)
+* 💻 [SAS Statistical Programming Code (.sas)](./Hyunkyu_Yi_Final_Project.sas)
