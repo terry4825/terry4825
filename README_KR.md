@@ -55,7 +55,9 @@
 ---
 
 ## 📫 연락처 (Contact)
-* **Email:** [본인의 이메일 주소를 입력하세요]
-* **LinkedIn:** [링크가 있다면 삽입하세요]
+* **Email:** terry4825@gmail.com 
+* **LinkedIn:** www.linkedin.com/in/terryyi1996
+
+
 
 ---
