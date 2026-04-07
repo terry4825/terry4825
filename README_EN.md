@@ -40,7 +40,7 @@
   * Achieved 3.87s computation time and optimized flight success rate.
 
 ### ⚖️ AI & Data Science
-* **Legal Data AI Solution (Contest)**
+* **[Legal Data AI Solution (Contest)](Legal_Project_EN.md)**
   * Proposed legal improvement ideas using Sentence-BERT and ML (XGBoost, Random Forest).
   * Passed the initial screening and performed data modeling.
 
