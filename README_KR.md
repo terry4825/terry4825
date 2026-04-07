@@ -45,7 +45,7 @@
   * 공모전 1차 서류 심사 통과 및 데이터 모델링 수행
 
 ### 📊 Statistical Analysis (UIUC Projects)
-* **Time Series Analysis (STAT 429)**
+* **[Time Series Analysis (STAT 429)](./STAT429_Project_KR.md)**
   * 시계열 데이터를 활용한 예측 모델링 및 데이터 패턴 분석
 * **Nonparametric Statistics (STAT 437)**
   * 분포에 구애받지 않는 비모수적 추론 및 통계 검정 수행
