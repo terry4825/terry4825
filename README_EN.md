@@ -1,12 +1,12 @@
-# 📊 Hyunkyu Yi | Data Science & Software Engineering Portfolio
+# 📊 Hyunkyu Yi | Data Science & Statistical Analysis Portfolio
 
-Welcome! I am a data-driven problem solver specializing in bridging the gap between statistical insights and practical software engineering. My expertise lies in Reinforcement Learning, Multivariate Statistics, and AI System Design.
+Welcome! I am a statistical analyst dedicated to deriving actionable insights from complex datasets by bridging the gap between rigorous statistical theory and software engineering. My expertise lies in advanced multivariate statistics, time series forecasting, and reinforcement learning-based optimization.
 
 ## 🛠 Core Competencies (Tech Stack)
-* **Languages:** ![C++|53](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white), ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white), ![SAS](https://img.shields.io/badge/SAS-00487F?style=flat-square&logo=sas&logoColor=white), ![Python|68](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white), ![Java|53](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-* **Statistics:** Time Series (ARIMA), Unsupervised Learning (Clustering), Regression Modeling, Multivariate Analysis
-* **Specialties:** Reinforcement Learning (Q-Learning), AI System Architecture, Data-driven Decision Making
-* **Communication:** Korean(Native), English(Fluent / Highly Proficient), Japanese(Basic Conversational) 
+* **Languages:** ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) ![SAS](https://img.shields.io/badge/SAS-00487F?style=flat-square&logo=sas&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+* **Statistics:** Time Series (ARIMA), Unsupervised Learning (Clustering), Logistic Regression, Multivariate Analysis
+* **Specialties:** Reinforcement Learning (Q-Learning), Predictive Modeling, Statistical Data Diagnosis
+* **Languages:** **Korean** (Native), **English** (Full Professional Proficiency), **Japanese** (Elementary)
 
 ---
 
@@ -14,42 +14,37 @@ Welcome! I am a data-driven problem solver specializing in bridging the gap betw
 
 ### [1. UAM Optimal Path Generation Simulation (C++)](./UAM_Project_EN.md)
 * **Keyword:** #C++ #Reinforcement_Learning #Q-Learning #UAM
-* **Summary:** Developed a pathfinding simulator for Urban Air Mobility (UAM). Achieved a **96% success rate** and reduced computation time to **3.87 seconds** by implementing Q-Learning with Local Optimization.
+* **Summary:** Developed a pathfinding simulator for Urban Air Mobility (UAM). Achieved a **96% success rate** and reduced computation time to **3.87s** by implementing Q-Learning with Local Optimization.
 
-### [2. AI-based Legal Data Analysis & Improvement Strategy](./Legal_Project_EN.md)
-* **Keyword:** #AI_Architecture #S-BERT #Legal_Tech
-* **Summary:** Awarded "Initial Screening Pass" in the 1st Legal Data Idea Contest. Designed an AI pipeline using S-BERT for semantic similarity analysis and XGBoost for risk prioritization.
+### [2. Intelligent Framework for Legislative Data Analysis](./Legal_Project_EN.md)
+* **Keyword:** #NLP #Semantic_Analysis #Ensemble_Learning
+* **Summary:** Awarded "Initial Screening Pass" in the 1st Legal Data Idea Contest. Designed an integrated analytical pipeline utilizing **Semantic Similarity (S-BERT)** and **Ensemble Learning** to detect structural contradictions in national legislation.
 
 ### [3. U.S. Oil Market Consumption & Production Forecasting](./STAT429_Project_EN.md)
 * **Keyword:** #Time_Series #ARIMA #Forecasting #R
-* **Summary:** Conducted long-term analysis on U.S. oil data (1965-2022). Identified optimal ARIMA(2,0,0) and ARIMA(1,0,2) models to forecast market trends for the next five years.
+* **Summary:** Conducted rigorous time series modeling on U.S. oil data (1965-2022). Identified optimal ARIMA(2,0,0) and ARIMA(1,0,2) models to provide 5-year market forecasts with statistical confidence.
 
-### [4. Clustering Analysis of Cocaine Abuse Patterns](./STAT437_Project_EN.md)
-* **Keyword:** #Unsupervised_Learning #K-medoids #Data_Diagnosis #Python
-* **Summary:** Diagnosed public health data structures using K-medoids and Fuzzy C-means. Focused on identifying the impact of data skewness and autocorrelation on clustering validity.
+### [4. Statistical Diagnosis of Cocaine Abuse Patterns](./STAT437_Project_EN.md)
+* **Keyword:** #Data_Diagnosis #Clustering #K-medoids #R
+* **Summary:** Diagnosed public health data structures using K-medoids and Fuzzy C-means. Focused on the **methodological validation** of clustering models against data skewness and autocorrelation.
 
 ### [5. Multivariate Analysis of Liver Disease (ILPD) using SAS](./STAT448_Project_EN.md)
-* **Keyword:** #Advanced_Statistics #SAS #Logistic_Regression #Medical_Data
-* **Summary:** Performed comprehensive clinical data analysis on 583 patients. Demonstrated proficiency in **SAS** through logistic regression, ANOVA, and stepwise variable selection.
+* **Keyword:** #Advanced_Statistics #SAS #Logistic_Regression #Healthcare
+* **Summary:** Analyzed 583 clinical records using SAS. Built predictive models for liver disease using logistic regression and ANOVA, demonstrating high-level proficiency in enterprise statistical software.
 
 ---
 
 ## 💼 Work Experience
-* **Software Development Intern | MOASOFT, South Korea** (Jun 2023 - Dec 2023)
-  * Developed a Reinforcement Learning-based pathfinding simulation for UAM systems using C++.
+* **Software Development Intern | Moasoft** (Jun 2023 - Dec 2023)
+  * Implemented Reinforcement Learning-based simulation logic and GUI for UAM pathfinding using C++.
   * **Professional Interpreter:** Facilitated communication between an FAA Designated Engineering Representative (DER) and domestic staff during workshops on **DO-178C** (Software Considerations in Airborne Systems and Equipment Certification).
 
 ## 🎓 Education
 * **University of Illinois Urbana-Champaign (UIUC)**
-  * B.S. in Statistics
-  * Focused on Advanced Data Analysis and Time Series Methods
+  * B.S. in Statistics (Specialized in Advanced Data Analysis & Time Series Methods)
 
 ---
 
 ## 📫 Contact
 - **Email:** terry4825@gmail.com
-- **LinkedIn:** www.linkedin.com/in/terryyi1996
-
-
-
----
+- **LinkedIn:** [www.linkedin.com/in/terryyi1996](https://www.linkedin.com/in/terryyi1996)
