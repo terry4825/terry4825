@@ -1,43 +1,40 @@
-# ⚖️ AI-based Legal Data Analysis & Legislative Improvement Solution
-> **Participant in the 1st Legal Data Utilization Idea Contest | Passed Initial Screening**
+# ⚖️ AI-Driven Framework for Legislative Improvement and Data Utilization
+> **Selected for Initial Screening Pass in the 1st National Legal Data Idea Contest**
 
 ## 📌 Project Overview
-* **Period:** May 1, 2025 - June 30, 2025
-* **Organizer:** Ministry of Government Legislation, Republic of Korea
-* **Objective:** Designing an AI-driven platform to diagnose structural flaws in legislation (redundancy, conflict, obsolescence) and propose automated policy improvements using Big Data and AI.
-* **Key Role:** **Technical Architect & Lead Designer for AI Solution**
-    * Designed the data analysis pipeline and machine learning algorithm framework.
-    * Planned the AWS-based cloud infrastructure and real-time data processing workflow.
+* **Period:** May 2025 - June 2025 (Hosted by the Ministry of Government Legislation)
+* **Objective:** Conceptualizing an intelligent platform that diagnoses structural flaws in legislation (redundancy, conflict, obsolescence) using Big Data and AI to propose automated policy improvements.
+* **Key Role:** **Design of Analytical Algorithms & Technical Feasibility Review**
+    * Designed the data analysis pipeline and machine learning methodology.
+    * Established a technical framework for quantitative analysis of unstructured legal texts.
 
-## 🛠 Proposed Technical Architecture
+## 🛠 Technical Architecture
 
-### 🤖 AI & Machine Learning
-* **NLP & Embedding:** `Sentence-BERT` (Quantifying semantic similarity between legal clauses to detect contextual conflicts).
-* **Clustering:** `K-Means` (Detecting redundant or unnecessary clauses through similarity-based grouping).
-* **Classification & Regression:** `XGBoost`, `Random Forest` (Predicting risk scores and prioritizing legislative revision based on public petition frequency and judicial precedents).
-* **Generative AI:** `LLM` (Automated generation of concise legal improvement drafts and summaries).
+### 🤖 Data Analysis & Machine Learning
+* **NLP & Embedding:** `Sentence-BERT` (Quantifying semantic similarity and detecting contextual contradictions in legal clauses)
+* **Clustering:** `K-Means` (Identifying redundant or unnecessary provisions through similarity-based grouping)
+* **Risk Modeling:** `XGBoost` & `Random Forest` (Prioritizing legislative revisions and predicting risks based on public petitions and judicial precedents)
+* **Generative AI:** `LLM` (Logic for generating automated drafts and summaries ensuring legal consistency)
 
-### ☁️ Cloud Infrastructure (AWS)
-* **Data Pipeline:** `AWS Kinesis` (Real-time data ingestion), `AWS Glue` (ETL processes).
-* **Storage & DB:** `Amazon S3` (Data Lake), `Amazon RDS` (Metadata management).
-* **Model Serving:** `Amazon SageMaker` (Model training & deployment), `AWS Lambda` (Event-driven computing).
+### 📊 Data Integration & Visualization
+* **Data Integration:** Linking heterogeneous datasets (Current laws, Precedents, Petitions) via Public Data Portal APIs.
+* **Visualization:** Network Graphs (Visualizing regulatory entanglement) and Heatmaps (Representing risk by sector).
 
-## 🚀 Key Planning & Design Features
+## 🚀 Key Planning & Design
 
 ### 1. Multi-dimensional Legal Data Integration
-* **Data Linkage:** Integrated over 8 types of data via the Public Data Portal API (Current laws, Judicial precedents, Administrative trials, Civil petition big data, Legislative history, etc.).
-* **Semantic Analysis:** Overcame the limitations of simple keyword matching by applying S-BERT embeddings to identify **contextual contradictions and logical flaws** within legal texts.
+* **Data Engineering:** Integrated over 8 types of public data, including current legislation, administrative appeals, and civil petition big data, as the foundation for analysis.
+* **Semantic Analysis:** Overcame the limitations of keyword-based search by applying **S-BERT embedding** to derive nuanced semantic differences and logical conflicts between provisions.
 
-### 2. Strategic Data Processing Pipeline
-1.  **Ingestion & Preprocessing:** Collected unstructured legal texts via APIs, performed text cleaning, and executed embedding using a legal-specific vocabulary dictionary.
-2.  **Diagnostic Modeling:** Grouped similar clauses using K-Means and quantified the "Necessity for Revision" (Risk Score) using XGBoost and Random Forest to determine priority.
-3.  **Draft Generation:** Automatically generated preliminary legislative improvement drafts using LLMs based on identified structural flaws.
+### 2. Step-by-step Data Processing Pipeline
+1. **Collection & Preprocessing:** Refined unstructured text collected via government APIs and vectorized data using a legal-specific dictionary.
+2. **Diagnostic Modeling:** Grouped similar provisions using K-Means and quantified the "necessity for revision" (risk score) through tree-based models (XGBoost/Random Forest).
+3. **Solution Generation:** Designed the logic for an LLM to generate preliminary legislative improvement drafts based on the identified flaws.
 
-### 3. User-Centric Visualization Dashboard
-* Visualized inter-legal relationships using Network Graphs to intuitively present "Regulatory Entanglement."
-* Provided a Heatmap of legal risk scores by region and sector to support rapid decision-making for policymakers.
+### 3. Statistics-based Policy Decision Support
+* Visualized complex correlations between laws using network graphs to intuitively present regulatory overlaps.
+* Provided sector-specific risk heatmaps to support rapid, data-driven decision-making for policymakers.
 
 ## 🏆 Key Achievements & Insights
-* **Validation of Technical Feasibility:** Passed the **initial screening of the 1st Legal Data Utilization Idea Contest** based on a rigorous algorithm pipeline and cloud architecture design.
-* **Data-Driven Governance:** Proposed a logical framework to transition traditional, subjective legal audits into an objective, AI-centric system.
-* **Academic Integration:** Leveraged a background in Statistics from UIUC to establish a process for converting unstructured text into quantitative metrics (Similarity scores, Prediction weights).
+* **Validation of Technical Feasibility:** Passed the **initial screening** of the national contest based on a sophisticated algorithm pipeline and logical analytical framework.
+* **Data-Driven Administration:** Established a technical foundation to transition traditional legislative maintenance from subjective analysis to an objective, AI-centered system.
