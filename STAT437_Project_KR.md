@@ -35,6 +35,5 @@
 
 ### 📂 관련 자료 (Project Files)
 * 📊 [프로젝트 최종 발표 자료 (PDF)](./STAT437/Project_PPT.pdf)
-* 💻 [딥러닝 모델 구현 소스 코드 (.py / .ipynb)](./STAT437/STAT_437_Project_HY.ipynb)
-* 📄 [코드 실행 결과 및 성능 분석 리포트 (PDF)](./STAT437/STAT_437_Project_HY.pdf)
+* 💻 [딥러닝 모델 구현 및 분석 리포트 (.py / .ipynb)](./STAT437/STAT_437_Project_HY.ipynb)
 * 💾 [분석에 사용된 데이터셋 (CSV/Data)](./STAT437/drugs.csv)
