@@ -12,6 +12,8 @@
 * 📊 **Data & Dev Hybrid** | Proficient in Statistical Analysis (**R, SAS**) & Algorithm Dev (C++, Python).
 * 🛡️ **Verification-Oriented** | Committed to rigorous, evidence-based design and logical problem-solving.
 
+---
+
 ## 🛠 Tech Stack
 
 ### 💻 Programming Languages
@@ -27,6 +29,8 @@
 ### 🔧 Tools & Others
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+---
 
 ## 🔭 Featured Projects
 
@@ -47,6 +51,8 @@
   * Statistical inference and hypothesis testing using nonparametric methods.
 * **Advanced Data Analysis (STAT 448)**
   * Applied multivariate analysis and statistical testing on complex datasets.
+
+---
 
 ## 📫 Contact
 - **Email:** terry4825@gmail.com
