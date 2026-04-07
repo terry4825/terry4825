@@ -1,0 +1,258 @@
+---
+title: "STAT429FinalProject"
+author: "Hyunkyu Yi"
+date: "2024-05-05"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(comment = "#>", echo = FALSE,message = FALSE, warning = FALSE, fig.width = 6)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(astsa)
+library(forecast)
+```
+
+# Abstract
+
+  This study examines trends in U.S. oil consumption and production from 1965 to 2022. For this project, I have used regression modeling to analyze and collect results. Preliminary analysis showed significant increases in oil production beginning in 2007 and a decline in consumption starting in the early 2000s. They both show notable variability and they are non-stationarity. The regression models identified the effect of global oil prices and production on consumption and vice versa. While oil consumption increases over the next five years of prediction, production is expected to remain stable. The ARIMA(2,0,0) model for consumption and the ARIMA(1,0,2) for production provided the best fit. These results shows that we need a strategic plan for expected changes in the market.
+
+# 1. Introduction
+
+  Crude oil prices significantly influences global economics and our daily lives. Recently, global events like the war between Russia and Ukraine have led the oil prices to increase. These rising price resulted the costs for transportation to be more expensive and also for any other services related to oil usage. Such as this, it would be advantageous to know the pattern of the oil's change.
+  
+  This research will use several oil-related data and analyses the trend or pattern of it. In the end, we will try to forecast the future trends of oil consumption and production as well. The research will be using the oil consumption rate, production rate, and the global price of oil through out these years. Since there are several countries that contains missing values, the research will concentrate on U.S. data. 
+  
+\newpage
+# 2. Methods
+
+## Data Collection
+  All of the Data was obtained from a organization cite called "Our World in Data"(https://ourworldindata.org/). The oil production rate data shows for several countries through 1900 to 2022. The oil consumption rate data is similar to the production rate. However, the minimum year of the data was different by showing 1965 as the starting year. The crude oil prices data contains the global crude oil prices in US dollars. The price data ranges from 1861 to 2022. The Oil consumption is measured in terawatt-hours (TWh). This is a unit of measurement that reflects the scale of energy use.
+
+## Preliminary Analysis
+* Visual time series plots to identify trends or seasonal patterns.
+* Statistical tests for trends and variance changes.
+
+## Regression Analysis
+* Model 1 will examine the impact of global oil prices and U.S. oil production on U.S. oil consumption.
+* Model 2 will explore how global oil prices and U.S. oil consumption affect U.S. oil production.
+* Both models will include time (t) as an independent variable but not as a polynomial function (e.g., t² or t³).
+
+## Analysis of Residuals
+* The residuals of each regression model will be analyzed for autocorrelation using the autocorrelation function (ACF). If significant autocorrelation is detected, models will be adjusted to include autoregressive terms to correct it.
+
+## Model Selection
+* The selection of the best-fit model will be based on the lowest Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC) values. 
+
+## Forecasting
+* The selected models will be used to forecast the next five future values of U.S. oil production and consumption. The forcasting will consider the current trends in global oil prices.
+
+\newpage
+# 3. Results
+
+## Preliminary Analysis
+
+ In preparation for this analysis, all datasets has been aligned to start from 1965. This will ensure uniform across the study period and avoid wrong interpretations from missing data. Time series plots for U.S. Oil Production, U.S. Oil Consumption, and Global Oil Prices were generated to visually inspect each dataset for trends and patterns. 
+
+* U.S. Oil Production shows a noticeable increase starting around 2007. This suggests a significant upward trend likely due to some events. The variance in production appears to increase with the rise in production levels. This indicates more variability as the production rates rises.
+
+* U.S. Oil Consumption shows an increasing trend until the early 2000s. After that, a declining pattern can be seen from around 2007. This decrease could mean that it is influenced by other events from outside. The variance in consumption data increases as the trend changes.
+
+* Global Oil Prices shows a steady increase starting from 2000 and shows significant changes of oil price during the 2000s. These trends are indicative of the oil market's sensitivity to events.
+
+Each of the time series plots shows non-stationarity cases with clear trends and changing variances over time. This suggests that the mean and variance of the series are not constant.
+
+```{r}
+production_data = read.csv("oil-production-by-country.csv", stringsAsFactors = FALSE)
+consumption_data = read.csv("oil-consumption-by-country.csv", stringsAsFactors = FALSE)
+price_data = read.csv("crude-oil-prices.csv", stringsAsFactors = FALSE)
+
+usa_production_data = production_data %>% 
+  filter(Code == "USA", Year >= 1965) %>%
+  select(Year, Production = Oil.production..TWh.)
+
+usa_consumption_data = consumption_data %>% 
+  filter(Code == "USA", Year >= 1965) %>%
+  select(Year, Consumption = Oil.consumption...TWh)
+price_data = price_data %>%
+  filter(Year >= 1965) %>%
+  select(Year, Price = Oil.price...Crude.prices.since.1861..current.US..)
+
+#head(usa_production_data)
+#head(usa_consumption_data)
+#head(price_data)
+```
+
+```{r}
+usa_production_ts = ts(usa_production_data$Production, start = 1965, frequency = 1)
+usa_consumption_ts = ts(usa_consumption_data$Consumption, start = 1965, frequency = 1)
+price_ts = ts(price_data$Price, start = 1965, frequency = 1)
+
+tsplot(usa_production_ts)
+tsplot(usa_consumption_ts)
+tsplot(price_ts)
+```
+
+
+
+
+
+
+
+
+## Regression Model
+
+To analyses further, two linear regression models will be used.
+
+* Model 1 : Predicts U.S. oil consumption based on the year, global oil prices, and U.S. oil production.
+
+**Regression Formula:**
+\[ \text{Consumption} = \beta_0 + \beta_1 \times \text{Year} + \beta_2 \times \text{Price} + \beta_3 \times \text{Production} \]
+
+
+Findings: 
+The coefficient for Year suggests that oil consumption increases by approximately 55.41 TWh for every year increase.
+The Price of oil has a negative coefficient but not statistically significant at the 0.05 level.
+Production shows a significant negative impact on consumption. As production increases, consumption decreases by 0.2718 TWh.
+The model explains approximately 54.84% of the variance in consumption.
+The F-statistic is significant which indicates the model is statistically significant at explaining the variance in consumption.
+
+```{r}
+data_combined = usa_production_data %>%
+  inner_join(usa_consumption_data, by = "Year") %>%
+  inner_join(price_data, by = "Year")
+
+model1 = lm(Consumption ~ Year + Price + Production, data = data_combined)
+summary(model1)
+```
+
+* Model 2 : Predicts U.S. oil production based on the year, global oil prices, and U.S. oil consumption.
+
+**Regression Formula:**
+\[ \text{Production} = \beta_0 + \beta_1 \times \text{Year} + \beta_2 \times \text{Price} + \beta_3 \times \text{Consumption} \]
+
+Findings:
+The coefficient for Year indicates that production increases by 47.40 TWh each year. This shows a significant positive trend.
+The Price coefficient is not significant which means that price fluctuations might not be a strong predictor of production rates.
+Consumption significantly impacts production by showing a p-value lower than 0.05. Increase in consumption leads to a significant decrease in production.
+The model has a lower explanatory power by showing an Adjusted R-squared value of 0.1558.
+Despite the lower R-squared, the model is statistically significant (F-statistic p = 0.0068). This suggests that the variables affect production.
+
+```{r}
+model2 = lm(Production ~ Year + Price + Consumption, data = data_combined)
+summary(model2)
+
+```
+
+
+
+
+
+
+
+
+## Check Residuals and Autocorrelation
+
+After fitting the regression models to understand the factors influencing U.S. oil consumption and production, it's important to examine the residuals to ensure that the models meet the assumptions that are necessary for linear regression analysis. The residuals from both models were analyzed for autocorrelation that can cause model misspecification or biases.
+
+* The ACF plot for Model 1(U.S. Oil Consumption) shows significant autocorrelation at lag 1. This can be confirmed by the spike exceeding the blue dashed confidence bounds. This suggests that the first-order autocorrelation is present in the residuals of the model predicting oil consumption. This finding suggests the model may be missing some information that is captured by the lag of the dependent variable or another time-dependent variable.
+
+```{r}
+acf(residuals(model1))
+```
+
+* The ACF plot for Model 2 (U.S. Oil Production) displays a different pattern. The autocorrelation at lag 1 is also significant. Similar to Model 1, this suggests that there is autocorrelation.
+
+```{r}
+acf(residuals(model2))
+```
+
+
+
+## Final Model Selection
+
+To determine the most appropriate final model for our analysis on U.S. oil consumption and production, we will use ARIMA into our regression models to address the autocorrelation in the residuals of initial models. Model 1 used ARIMA(2,0,0) model and model 2 used ARIMA(1,0,2) model to proceed the research. After fitting the models, a comparative analysis based on Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC) was used to assess their performance. The lower the value will mean a better fit for both criterion.
+
+* The ARIMA(2,0,0) model for consumption shows a significant improvement over the initial regression model.
+* The ARIMA(1,0,2) model for production shows a better performance compared to the initial model.
+
+```{r}
+fit_arima1 = auto.arima(data_combined$Consumption, xreg = cbind(data_combined$Year, data_combined$Price, data_combined$Production))
+fit_arima2 = auto.arima(data_combined$Production, xreg = cbind(data_combined$Year, data_combined$Price, data_combined$Consumption))
+
+AIC(model1, model2, fit_arima1, fit_arima2)
+BIC(model1, model2, fit_arima1, fit_arima2)
+```
+
+Given these results, the ARIMA models are chosen as the final models for forecasting U.S. oil consumption and production. These models can provide a better statistical fit than the initial models. Also, these selected models will effectively handle the autocorrelation issues and enhance the reliability of our forecasts.
+
+## Forecast Future Values
+
+As part of our analysis, we forecasted the future values of U.S. oil consumption and production for the next five years. These forecasts provide insights into potential trends and figure out the possible future dynamics of the oil market.
+
+## U.S. Oil Consumption Forecast
+
+The forecast for U.S. oil consumption was generated using the ARIMA(2,0,0) model. Here are the point forecasts along with the 80% and 95% prediction intervals for the next five years:
+
+```{r}
+tempdata = data.frame(Year = seq(max(data_combined$Year) + 1, max(data_combined$Year) + 5),
+                      Price = rep(mean(data_combined$Price), 5),
+                      Production = rep(mean(data_combined$Production), 5),
+                      Consumption = rep(mean(data_combined$Consumption), 5))
+
+tempdata$Year = as.numeric(tempdata$Year)
+tempdata$Price = as.numeric(tempdata$Price)
+tempdata$Production = as.numeric(tempdata$Production)
+tempdata$Consumption = as.numeric(tempdata$Consumption)
+
+
+forecast_values_consumption <- forecast(fit_arima1, xreg = as.matrix(tempdata[, c("Year", "Price", "Production")]))
+
+forecast_values_production <- forecast(fit_arima2, xreg = as.matrix(tempdata[, c("Year", "Price", "Consumption")]))
+
+print(forecast_values_consumption)
+```
+
+U.S. Oil Production Forecast
+The forecast for U.S. oil production was derived using the ARIMA(1,0,2) model. Here are the projected values:
+
+
+```{r}
+print(forecast_values_production)
+```
+
+These forecasts shows that U.S. oil consumption is expected to show a gradual increase over the next five years and U.S. oil production is projected to remain relatively stable with slight changes. The wider ranges at the 95% level provides a more conservative estimate of future values which can help the research more meaningful.
+
+\newpage
+# 4. Discussion
+
+## Summary of Main Findings
+
+We were able to find the best model to forecast U.S. oil consumption and production over the next five years and found distinct trends of them. For oil consumption, the model predicted a gradual increase for every year. In contrast, oil production forecasts showed relative stability with minor changes. This has proved that it is possible to predict the pattern of the future of the oil market.
+
+## Connection to Existing Research
+
+Since oil is categorized as energy, we may able to analysis the trend of other energy and oil to see the possible relationship between two different items.
+
+## Study Limitations
+Even though we have analyzed the trend of the past, there will always be events that will affect the oil market. These events will make a trend that will be beyond the analysis of the past. For instance, war can accelerate the usage of oil and result a higher trend than expected. Such examples can always happen and the record will affect the predictions.
+
+## Suggestions for Future Research
+There are many different elements that can affect the trend of oil. For example, the usage of other energy that can replace oil can surely affect the trend of oil. In Future research, adding these elements will increase the accuracy of the prediction. 
+
+
+
+
+
+
+
+
+
+
+
+
